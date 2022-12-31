@@ -27,3 +27,20 @@ With this robot, we bit off much more than we could chew. The robot only lasted 
 This code was based on our first robot for the 2019-2020 season, so it does not include OkapiLib. It instead uses custom PID and motion profiling (based on a sine wive, which was not a good idea).
 
 - View the source code at [github.com/77788Y/77788Y-Mark-1.5](https://github.com/77788Y/77788Y-Mark-1.5)
+
+## ITZ Auto Planner
+This was a simple Java program that I wrote to help plan autonomous routines for our robot. It allowed the user to draw a path on the game field and would provide angles and distances for each path segment.
+
+- View the source code at [github.com/77788J/ITZ-Auto-Planner](https://github.com/77788J/ITZ-Auto-Planner)
+- Download the latest release at [github.com/77788J/ITZ-Auto-Planner/releases](https://github.com/77788J/ITZ-Auto-Planner/releases)
+
+![Screenshot of the ITZ Auto Planner](/res/itzautoplanner/sc-path.png)
+
+## Vex Auto Generator
+An improvement of "ITZ Auto Planner" from the previous season, this web-based program allowed the user to draw paths comprised of both lines and arcs. Paths could be saved to a file and loaded later. They could also be exported as C++ code for use in the robot's autonomous period.
+
+- View the source code at [github.com/77788Y/Vex-Auto-Generator](https://github.com/77788Y/Vex-Auto-Generator)
+
+- Visit the site at [77788y.github.io/Vex-Auto-Generator/](https://77788y.github.io/Vex-Auto-Generator/)
+
+![Screenshot of the Vex Auto Generator](/res/tpautoplanner/sc-editpoint.png)
