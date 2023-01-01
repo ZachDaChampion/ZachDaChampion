@@ -20,7 +20,8 @@ The first robot we built for the 2018-2019 season used a transmission between th
 This code was written for a later robot that did away with the transmission. It included a Pixy camera that was used to automate intaking balls, aiming the catapult (the game involved shooting balls at targets), and following objects during the autonomous period.
 
 - View the source code at [github.com/77788J/77788J-TP-Mark-II](https://github.com/77788J/77788J-TP-Mark-II)
-- Watch the robot in action: [https://youtube.com/shorts/iE0eHTyWHIA](https://youtube.com/shorts/iE0eHTyWHIA)
+- Watch the robot in action
+  - Autonomous routine: [https://youtube.com/shorts/iE0eHTyWHIA](https://youtube.com/shorts/iE0eHTyWHIA)
 
 ### Mid-Season Rebuild 2019-2020
 With this robot, we bit off much more than we could chew. The robot only lasted for a few weeks before we reverted to our previous design, so the code did not get much use. It was, however, the first time I used OkapiLib, a library included with PROS 3 that provided lots of useful functionality such as PID controllers, odometry, and motion profiling. This robot also had a transmission, this time between the chassis and the 'tilter'. This transmission was much more complicated (and, apparently, fragile) than the one used in the previous season, and it required a more complicated control system. A state machine was needed on top of the PID controllers and priority system to keep the transmission working properly.
