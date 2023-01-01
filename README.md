@@ -94,8 +94,6 @@ An improvement of "ITZ Auto Planner" from the previous season, this web-based pr
 ![Screenshot of the Vex Auto Generator](/res/tpautoplanner/sc-editpoint.png)
 </details>
 
----
-
 # Hardware
 I've also made some hardware projects (apart from robotics).
 <details>
