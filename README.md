@@ -1,10 +1,9 @@
 # Hi, I'm Zach
 I'm a computer engineering student interested in robotics and embedded programming. I have experience in C, C++, Python, and JavaScript.
 
-# Projects
-<details>
-<summary>Web Dev</summary>
+#  Web Dev
 Web development isn't my favorite thing to do, but I think it's an important skill to have. I've become fairly comfortable with web technologies, both frontend and backend, and I have a few projects that I'm proud of.
+<details> <summary>Expand</summary>
 
 ## Rankr
 A website for ranking TV episodes. This was my first project done with a modern web framework and I chose to learn Vue.
@@ -36,11 +35,10 @@ I did extend this site for a class project, adding a backend with PHP and MySQL 
 ![Image of two cards that were drawn from the 'Movies' hat](/res/hatpicker/sc-drawn.png)
 </details>
 
----
-
-<details>
-<summary>Robotics</summary>
+# Robotics
 In high school I participated in Vex Robotics. This is where I first learned C and C++. Most of my time in high school was spent in robotics, so I have quite a few projects from that time.
+<details>
+<summary>Expand</summary>
 
 ## Vex Robot Code
 Having been my team's programmer for all four years of high school, I wrote quite a few robot programs. I've included some of the more notable ones below.
@@ -98,9 +96,10 @@ An improvement of "ITZ Auto Planner" from the previous season, this web-based pr
 
 ---
 
-<details>
-<summary>Hardware</summary>
+# Hardware
 I've also made some hardware projects (apart from robotics).
+<details>
+<summary>Expand</summary>
 
 ## Quadrature Encoder
 I designed and 3d-printed a simple quadrature encoder. It uses two photointerruptors to measure the rotation of a spinning disk. The disk has a series of slits around its perimeter that the photointerruptors can detect.
