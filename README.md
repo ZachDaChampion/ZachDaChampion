@@ -9,3 +9,6 @@ Web development isn't my favorite thing to do, but I think it's an important ski
 
 ## [Robotics](pages/robotics.md)
 In high school I participated in Vex Robotics. This is where I first learned C and C++. Most of my time in high school was spent in robotics, so I have quite a few projects from that time.
+
+## [Hardware](pages/hardware.md)
+I've also made some hardware projects (apart from robotics). 
