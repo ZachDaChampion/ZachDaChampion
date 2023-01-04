@@ -1,6 +1,8 @@
 # Hi, I'm Zach
 I'm a computer engineering student interested in robotics and embedded programming. I have experience in C, C++, Python, and JavaScript.
 
+This page is a work-in-progress.
+
 #  Web Dev
 Web development isn't my favorite thing to do, but I think it's an important skill to have. I've become fairly comfortable with web technologies, both frontend and backend, and I have a few projects that I'm proud of.
 <details> <summary>Expand</summary>
@@ -69,7 +71,7 @@ With this robot, we bit off much more than we could chew. The robot only lasted 
 - View the source code at [github.com/77788Y/77788Y-Mark-II](https://github.com/77788Y/77788Y-Mark-II)
 
 ### States 2020
-This code was based on our first robot for the 2019-2020 season, so it does not include OkapiLib. It instead uses custom PID and motion profiling (based on a sine wive, which was not a good idea).
+This code was based on our first robot for the 2019-2020 season, so it does not include OkapiLib. It instead uses custom PID and motion profiling.
 
 - View the source code at [github.com/77788Y/77788Y-Mark-1.5](https://github.com/77788Y/77788Y-Mark-1.5)
 - Watch the robot in action
