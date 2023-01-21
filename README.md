@@ -3,9 +3,18 @@ I'm a computer engineering student interested in robotics and embedded programmi
 
 This page is a work-in-progress.
 
+# Feaured General
+
+## Snake World
+A genetic algorithm that simulates a population of snakes. Each snake is controlled by a neural network, and the network is trained by having the snakes compete against each other. The snakes are given a score based on how long they survive and how many apples they eat. The snakes with the highest scores are allowed to reproduce, and their neural networks are combined to create the next generation of snakes. Snakes can die from running into walls or each other's bodies.
+
+This project is implemented in C++ with the QT framework.
+
+- View the source code at [github.com/ZachDaChampion/Snake-World](https://github.com/ZachDaChampion/Snake-World)
+
+<img src="res/snakeworld/sc.png" alt="Image of the Snake World simulation" width="720">
+
 #  Web Dev
-Web development isn't my favorite thing to do, but I think it's an important skill to have. I've become fairly comfortable with web technologies, both frontend and backend, and I have a few projects that I'm proud of.
-<details> <summary>Expand</summary>
 
 ## Rankr
 A website for ranking TV episodes. This was my first project done with a modern web framework and I chose to learn Vue.
@@ -15,9 +24,9 @@ I also wanted to build my own backend, so I used Node.js and Express to create a
 - View the source code at [github.com/ZachDaChampion/rankr](https://github.com/ZachDaChampion/rankr)
 - Visit the site at [rankr.zachchampion.tech](https://rankr.zachchampion.tech)
 
-![Image of the Rankr homepage](/res/rankr/sc-mainpage.png)
-![Image of a search for "Star Wars"](/res/rankr/sc-search-sw.png)
-![Image of a comparison of two episodes from Star Wars: Andor (2022)](/res/rankr/sc-compare.png)
+<img src="res/rankr/sc-mainpage.png" alt="Image of the Rankr homepage" width="32%">
+<img src="res/rankr/sc-search-sw.png" alt="Image of a search for 'Star Wars'" width="32%">
+<img src="res/rankr/sc-compare.png" alt="Image of a comparison of two episodes from Star Wars: Andor (2022)" width="32%">
 
 ## Hat Picker
 A website for picking a random "card" out of a virtual hat.
@@ -31,16 +40,13 @@ I did extend this site for a class project, adding a backend with PHP and MySQL 
 
 - View the source code at [github.com/ZachDaChampion/hat-picker](https://github.com/ZachDaChampion/hat-picker)
 - Visit the site at [zachdachampion.github.io/hat-picker](https://zachdachampion.github.io/hat-picker/)
-- 
-![Image of the Hat Picker main page](/res/hatpicker/sc-mainpage.png)
-![Image of the contents of the 'Movies' hat](/res/hatpicker/sc-moviehat.png)
-![Image of two cards that were drawn from the 'Movies' hat](/res/hatpicker/sc-drawn.png)
-</details>
+
+<img src="res/hatpicker/sc-mainpage.png" alt="Image of the Hat Picker main page" width="32%">
+<img src="res/hatpicker/sc-moviehat.png" alt="Image of the contents of the 'Movies' hat" width="32%">
+<img src="res/hatpicker/sc-drawn.png" alt="Image of two cards that were drawn from the 'Movies' hat" width="32%">
 
 # Robotics
 In high school I participated in Vex Robotics. This is where I first learned C and C++. Most of my time in high school was spent in robotics, so I have quite a few projects from that time.
-<details>
-<summary>Expand</summary>
 
 ## Vex Robot Code
 Having been my team's programmer for all four years of high school, I wrote quite a few robot programs. I've included some of the more notable ones below.
@@ -92,14 +98,11 @@ An improvement of "ITZ Auto Planner" from the previous season, this web-based pr
 - View the source code at [github.com/77788Y/Vex-Auto-Generator](https://github.com/77788Y/Vex-Auto-Generator)
 
 - Visit the site at [77788y.github.io/Vex-Auto-Generator/](https://77788y.github.io/Vex-Auto-Generator/)
-
-![Screenshot of the Vex Auto Generator](/res/tpautoplanner/sc-editpoint.png)
+- 
+<img src="res/tpautoplanner/sc-editpoint.png" alt="Screenshot of the Vex Auto Generator" width="50%">
 </details>
 
 # Hardware
-I've also made some hardware projects (apart from robotics).
-<details>
-<summary>Expand</summary>
 
 ## Quadrature Encoder
 I designed and 3d-printed a simple quadrature encoder. It uses two photointerruptors to measure the rotation of a spinning disk. The disk has a series of slits around its perimeter that the photointerruptors can detect.
@@ -110,13 +113,12 @@ That being said, the final encoder was perfectly accurate. It accumulated zero e
 
 This encoder was used in a school project in which dynamic band-stop filter was generated and applied to a live audio signal. The encoder controlled the frequency range of the filter.
 
-![Image of the encoder in its casing](/res/encoder/casing.jpg)
-![Image of the inside of the encoder](/res/encoder/inside.jpg)
-![Image of the encoder's disk](/res/encoder/closeup.jpg)
-![Screenshot of the filter editor](/res/encoder/sc-filter-ui.png)
+<img src="res/encoder/casing.jpg" alt="Image of the encoder in its casing" width="32%">
+<img src="res/encoder/inside.jpg" alt="Image of the inside of the encoder" width="32%">
+<img src="res/encoder/closeup.jpg" alt="Image of the encoder's disk" width="32%">
+<img src="res/encoder/sc-filter-ui.png" alt="Screenshot of the filter editor" width="100%">
 
 ## Roomba Experimentation Platform
 I wanted to use a Roomba to learn ROS and experiment with antonomous mapping and navigation, so I designed and printed a platform that could be attached to the top of the Roomba. The platform has a Raspberry Pi, a lidar sensor, and a battery pack. 
 
-![Image of the platform on a Roomba](/res/roomba/roomba.jpg)
-</details>
+<img src="res/roomba/roomba.jpg" alt="Image of the platform on a Roomba" width="720">
