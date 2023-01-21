@@ -3,9 +3,7 @@ I'm a computer engineering student interested in robotics and embedded programmi
 
 This page is a work-in-progress.
 
-# Feaured General
-
-## Snake World
+# Snake World
 A genetic algorithm that simulates a population of snakes. Each snake is controlled by a neural network, and the network is trained by having the snakes compete against each other. The snakes are given a score based on how long they survive and how many apples they eat. The snakes with the highest scores are allowed to reproduce, and their neural networks are combined to create the next generation of snakes. Snakes can die from running into walls or each other's bodies.
 
 This project is implemented in C++ with the QT framework.
@@ -14,9 +12,7 @@ This project is implemented in C++ with the QT framework.
 
 <img src="res/snakeworld/sc.png" alt="Image of the Snake World simulation" width="720">
 
-#  Web Dev
-
-## Rankr
+# Rankr
 A website for ranking TV episodes. This was my first project done with a modern web framework and I chose to learn Vue.
 I primarily used this project to improve my design skills, focusing on making a good-looking site with natural animations.
 I also wanted to build my own backend, so I used Node.js and Express to create a REST API.
@@ -30,7 +26,7 @@ I also wanted to build my own backend, so I used Node.js and Express to create a
 <img src="res/rankr/sc-compare.png" alt="Image of a comparison of two episodes from Star Wars: Andor (2022)" width="66%">
 </p>
 
-## Hat Picker
+# Hat Picker
 A website for picking a random "card" out of a virtual hat.
 I originally made this for some friends who wanted to pick a random movie to watch from a list that we had made.
 The site allows you to create multiple hats, each with a different set of cards.
@@ -106,9 +102,7 @@ An improvement of "ITZ Auto Planner" from the previous season, this web-based pr
 <img src="res/tpautoplanner/sc-editpoint.png" alt="Screenshot of the Vex Auto Generator" width="720">
 </details>
 
-# Hardware
-
-## Quadrature Encoder
+# Quadrature Encoder
 I designed and 3d-printed a simple quadrature encoder. It uses two photointerruptors to measure the rotation of a spinning disk. The disk has a series of slits around its perimeter that the photointerruptors can detect.
 
 Due to 3d-printing limitations, I could not get very high precision. The disk has 15 slits, giving it 60 pulses per revolution. The encoder can therefore measure rotations to an accuracy of 1/60th of a revolution, or 6 degrees. I was unable to get the encoder to count accurately with higher precision because the slits were too small to be reliably detected.
@@ -124,7 +118,7 @@ This encoder was used in a school project in which dynamic band-stop filter was 
 </p>
 <img src="res/encoder/sc-filter-ui.png" alt="Screenshot of the filter editor" width="100%">
 
-## Roomba Experimentation Platform
+# Roomba Experimentation Platform
 I wanted to use a Roomba to learn ROS and experiment with antonomous mapping and navigation, so I designed and printed a platform that could be attached to the top of the Roomba. The platform has a Raspberry Pi, a lidar sensor, and a battery pack. 
 
 <img src="res/roomba/roomba.jpg" alt="Image of the platform on a Roomba" width="720">
