@@ -24,7 +24,7 @@ I also wanted to build my own backend, so I used Node.js and Express to create a
 - View the source code at [github.com/ZachDaChampion/rankr](https://github.com/ZachDaChampion/rankr)
 - Visit the site at [rankr.zachchampion.tech](https://rankr.zachchampion.tech)
 
-<p align="middle">
+<p>
 <img src="res/rankr/sc-mainpage.png" alt="Image of the Rankr homepage" width="66%">
 <img src="res/rankr/sc-search-sw.png" alt="Image of a search for 'Star Wars'" width="66%">
 <img src="res/rankr/sc-compare.png" alt="Image of a comparison of two episodes from Star Wars: Andor (2022)" width="66%">
@@ -43,7 +43,7 @@ I did extend this site for a class project, adding a backend with PHP and MySQL 
 - View the source code at [github.com/ZachDaChampion/hat-picker](https://github.com/ZachDaChampion/hat-picker)
 - Visit the site at [zachdachampion.github.io/hat-picker](https://zachdachampion.github.io/hat-picker/)
 
-<p align="middle">
+<p>
 <img src="res/hatpicker/sc-mainpage.png" alt="Image of the Hat Picker main page" width="66%">
 <img src="res/hatpicker/sc-moviehat.png" alt="Image of the contents of the 'Movies' hat" width="66%">
 <img src="res/hatpicker/sc-drawn.png" alt="Image of two cards that were drawn from the 'Movies' hat" width="66%">
@@ -117,7 +117,7 @@ That being said, the final encoder was perfectly accurate. It accumulated zero e
 
 This encoder was used in a school project in which dynamic band-stop filter was generated and applied to a live audio signal. The encoder controlled the frequency range of the filter.
 
-<p align="middle">
+<p>
 <img src="res/encoder/casing.jpg" alt="Image of the encoder in its casing" width="32%">
 <img src="res/encoder/inside.jpg" alt="Image of the inside of the encoder" width="32%">
 <img src="res/encoder/closeup.jpg" alt="Image of the encoder's disk" width="32%">
