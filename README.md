@@ -25,9 +25,9 @@ I also wanted to build my own backend, so I used Node.js and Express to create a
 - Visit the site at [rankr.zachchampion.tech](https://rankr.zachchampion.tech)
 
 <p align="middle">
-<img src="res/rankr/sc-mainpage.png" alt="Image of the Rankr homepage" width="49%">
-<img src="res/rankr/sc-search-sw.png" alt="Image of a search for 'Star Wars'" width="49%">
-<img src="res/rankr/sc-compare.png" alt="Image of a comparison of two episodes from Star Wars: Andor (2022)" width="49%">
+<img src="res/rankr/sc-mainpage.png" alt="Image of the Rankr homepage" width="66%">
+<img src="res/rankr/sc-search-sw.png" alt="Image of a search for 'Star Wars'" width="66%">
+<img src="res/rankr/sc-compare.png" alt="Image of a comparison of two episodes from Star Wars: Andor (2022)" width="66%">
 </p>
 
 ## Hat Picker
@@ -44,9 +44,9 @@ I did extend this site for a class project, adding a backend with PHP and MySQL 
 - Visit the site at [zachdachampion.github.io/hat-picker](https://zachdachampion.github.io/hat-picker/)
 
 <p align="middle">
-<img src="res/hatpicker/sc-mainpage.png" alt="Image of the Hat Picker main page" width="49%">
-<img src="res/hatpicker/sc-moviehat.png" alt="Image of the contents of the 'Movies' hat" width="49%">
-<img src="res/hatpicker/sc-drawn.png" alt="Image of two cards that were drawn from the 'Movies' hat" width="49%">
+<img src="res/hatpicker/sc-mainpage.png" alt="Image of the Hat Picker main page" width="66%">
+<img src="res/hatpicker/sc-moviehat.png" alt="Image of the contents of the 'Movies' hat" width="66%">
+<img src="res/hatpicker/sc-drawn.png" alt="Image of two cards that were drawn from the 'Movies' hat" width="66%">
 </p>
 
 # Robotics
