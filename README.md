@@ -24,7 +24,7 @@ This project is implemented in C++ with the QT framework.
 # Search Visualizer
 
 In order to get more comfortable with the QT framework, I created a simple program that
-visualizes the A* and Dijkstra search algorithms. The program allows you to create a
+visualizes the A\* and Dijkstra search algorithms. The program allows you to create a
 weighted grid, add walls, and select a start and end point. Pathfinding algorithms can
 be run at varying speeds and the results can be viewed in real time.
 
@@ -211,6 +211,13 @@ enable live collaboration between users. However, this version is not currently 
 
 I wanted to use a Roomba to learn ROS and experiment with antonomous mapping and
 navigation, so I designed and printed a platform that could be attached to the top of
-the Roomba. The platform has a Raspberry Pi, a lidar sensor, and a battery pack.
+the Roomba. The platform originally had a Raspberry Pi, a lidar sensor, and a battery
+pack.
 
 <img src="res/roomba/roomba.jpg" alt="Image of the platform on a Roomba" width="720">
+
+I have since acquired an Nvidia Jetson, which is much more powerful than the Raspberry
+Pi and has a built-in camera. I redesigned the platform to accommodate the Jetson.
+
+<img src="res/roomba/platform-no-jetson.png" alt="Image of the Jetson frame on a Roomba" width="49%">
+<img src="res/roomba/with-jetson.png" alt="Image of the Jetson and LIDAR on a Roomba" width="49%">
