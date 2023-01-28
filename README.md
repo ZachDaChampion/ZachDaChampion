@@ -219,5 +219,5 @@ pack.
 I have since acquired an Nvidia Jetson, which is much more powerful than the Raspberry
 Pi and has a built-in camera. I redesigned the platform to accommodate the Jetson.
 
-<img src="res/roomba/platform-no-jetson.png" alt="Image of the Jetson frame on a Roomba" width="49%">
-<img src="res/roomba/with-jetson.png" alt="Image of the Jetson and LIDAR on a Roomba" width="49%">
+<img src="res/roomba/platform-no-jetson.jpg" alt="Image of the Jetson frame on a Roomba" width="49%">
+<img src="res/roomba/with-jetson.jpg" alt="Image of the Jetson and LIDAR on a Roomba" width="49%">
