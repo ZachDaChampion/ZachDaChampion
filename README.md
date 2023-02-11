@@ -27,7 +27,7 @@ and autonomous obstacle avoidance among other things.
 
 <img src="res/roomba/slam.jpg" alt="A room that was mapped with SLAM on the Roomba" width="720">
 
-- View (some of) te source code at
+- View (some of) the source code at
   [github.com/ZachDaChampion/Roomba-ROS-Jetson](https://github.com/ZachDaChampion/Roomba-ROS-Jetson)
 
 
