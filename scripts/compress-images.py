@@ -1,6 +1,6 @@
 import os
 import sys
-from PIL import Image
+from PIL import Image, ImageOps
 
 # CLI arguments
 # --source: Source folder (default: res-orig)
@@ -45,6 +45,7 @@ for root, dirs, files in os.walk(source):
 
     # Open image
     img = Image.open(path)
+    img = ImageOps.exif_transpose(img)
 
     """
     Resize image

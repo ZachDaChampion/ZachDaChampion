@@ -5,6 +5,32 @@ have experience in C, C++, Python, and JavaScript.
 
 This page is a work-in-progress.
 
+# Roomba Experimentation Platform
+
+When working with robotics, I've always been much more enthusiastic about projects that
+involve physical robots rather than simulation. For this reason, I developed a platform
+to put on top of a Roomba in order to use it as a robotic base. At first, I used a
+Raspberry Pi and an RPLidar A2.
+
+<img src="res/roomba/roomba.jpg" alt="Image of the platform on a Roomba" width="720">
+
+I have since acquired an Nvidia Jetson, which is much more powerful than the Raspberry
+Pi and has a built-in camera. I redesigned the platform to accommodate the Jetson.
+
+<p>
+<img src="res/roomba/platform-no-jetson.jpg" alt="Image of the Jetson frame on a Roomba" width="49%">
+<img src="res/roomba/with-jetson.jpg" alt="Image of the Jetson and LIDAR on a Roomba" width="49%">
+</p>
+
+The system runs ROS2 and has been a lot of fun to use. I have run SLAM, navigation,
+and autonomous obstacle avoidance among other things.
+
+<img src="res/roomba/slam.jpg" alt="A room that was mapped with SLAM on the Roomba" width="720">
+
+- View (some of) te source code at
+  [github.com/ZachDaChampion/Roomba-ROS-Jetson](https://github.com/ZachDaChampion/Roomba-ROS-Jetson)
+
+
 # Snake World
 
 A genetic algorithm that simulates a population of snakes. Each snake is controlled by a
@@ -205,21 +231,4 @@ enable live collaboration between users. However, this version is not currently 
 <img src="res/hatpicker/sc-mainpage.png" alt="Image of the Hat Picker main page" width="66%">
 <img src="res/hatpicker/sc-moviehat.png" alt="Image of the contents of the 'Movies' hat" width="66%">
 <img src="res/hatpicker/sc-drawn.png" alt="Image of two cards that were drawn from the 'Movies' hat" width="66%">
-</p>
-
-# Roomba Experimentation Platform
-
-I wanted to use a Roomba to learn ROS and experiment with antonomous mapping and
-navigation, so I designed and printed a platform that could be attached to the top of
-the Roomba. The platform originally had a Raspberry Pi, a lidar sensor, and a battery
-pack.
-
-<img src="res/roomba/roomba.jpg" alt="Image of the platform on a Roomba" width="720">
-
-I have since acquired an Nvidia Jetson, which is much more powerful than the Raspberry
-Pi and has a built-in camera. I redesigned the platform to accommodate the Jetson.
-
-<p>
-<img src="res/roomba/platform-no-jetson.jpg" alt="Image of the Jetson frame on a Roomba" width="49%">
-<img src="res/roomba/with-jetson.jpg" alt="Image of the Jetson and LIDAR on a Roomba" width="49%">
 </p>
