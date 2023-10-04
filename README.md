@@ -67,7 +67,72 @@ This project is implemented in C++ with the QT framework.
 
 <img src="res/searchvis/astar-complete.png" alt="Image of the Search Visualizer program" width="720">
 
-# Robotics
+# Quadrature Encoder
+
+I designed and 3d-printed a simple quadrature encoder. It uses two photointerruptors to measure the
+rotation of a spinning disk. The disk has a series of slits around its perimeter that the
+photointerruptors can detect.
+
+Due to 3d-printing limitations, I could not get very high precision. The disk has 15 slits, giving
+it 60 pulses per revolution. The encoder can therefore measure rotations to an accuracy of 1/60th of
+a revolution, or 6 degrees. I was unable to get the encoder to count accurately with higher
+precision because the slits were too small to be reliably detected.
+
+That being said, the final encoder was perfectly accurate. It accumulated zero error even when
+spinning at high speeds.
+
+This encoder was used in a school project in which dynamic band-stop filter was generated and
+applied to a live audio signal. The encoder controlled the frequency range of the filter.
+
+<p>
+<img src="res/encoder/casing.jpg" alt="Image of the encoder in its casing" width="32%">
+<img src="res/encoder/inside.jpg" alt="Image of the inside of the encoder" width="32%">
+<img src="res/encoder/closeup.jpg" alt="Image of the encoder's disk" width="32%">
+</p>
+<img src="res/encoder/sc-filter-ui.png" alt="Screenshot of the filter editor" width="100%">
+
+# Rankr
+
+A website for ranking TV episodes. This was my first project done with a modern web framework and I
+chose to learn Vue. I primarily used this project to improve my design skills, focusing on making a
+good-looking site with natural animations. I also wanted to build my own backend, so I used Node.js
+and Express to create a REST API.
+
+- View the source code at [github.com/ZachDaChampion/rankr](https://github.com/ZachDaChampion/rankr)
+- Visit the site at [rankr.zachchampion.tech](https://rankr.zachchampion.tech)
+
+<p>
+<img src="res/rankr/sc-mainpage.png" alt="Image of the Rankr homepage" width="66%">
+<img src="res/rankr/sc-search-sw.png" alt="Image of a search for 'Star Wars'" width="66%">
+<img src="res/rankr/sc-compare.png" alt="Image of a comparison of two episodes from Star Wars: Andor (2022)" width="66%">
+</p>
+
+# Hat Picker
+
+A website for picking a random "card" out of a virtual hat. I originally made this for some friends
+who wanted to pick a random movie to watch from a list that we had made. The site allows you to
+create multiple hats, each with a different set of cards. You can also configure the hat to select
+more than one card at a time to give you a small list of options.
+
+This was my second web project. This time I used Svelte, a framework that compiles to vanilla
+JavaScript. I found it much easier to use than Vue. This project is entirely client-side, so I
+didn't need to worry about a backend; everything is stored in the browser's local storage.
+
+I did extend this site for a class project, adding a backend with PHP and MySQL to enable live
+collaboration between users. However, this version is not currently hosted.
+
+- View the source code at
+  [github.com/ZachDaChampion/hat-picker](https://github.com/ZachDaChampion/hat-picker)
+- Visit the site at
+  [zachdachampion.github.io/hat-picker](https://zachdachampion.github.io/hat-picker/)
+
+<p>
+<img src="res/hatpicker/sc-mainpage.png" alt="Image of the Hat Picker main page" width="66%">
+<img src="res/hatpicker/sc-moviehat.png" alt="Image of the contents of the 'Movies' hat" width="66%">
+<img src="res/hatpicker/sc-drawn.png" alt="Image of two cards that were drawn from the 'Movies' hat" width="66%">
+</p>
+
+# Vex Robotics
 
 In high school I participated in Vex Robotics. This is where I first learned C and C++. Most of my
 time in high school was spent in robotics, so I have quite a few projects from that time.
@@ -161,68 +226,3 @@ later. They could also be exported as C++ code for use in the robot's autonomous
   [77788y.github.io/Vex-Auto-Generator/](https://77788y.github.io/Vex-Auto-Generator/)
 - <img src="res/tpautoplanner/sc-editpoint.png" alt="Screenshot of the Vex Auto Generator" width="720">
   </details>
-
-# Quadrature Encoder
-
-I designed and 3d-printed a simple quadrature encoder. It uses two photointerruptors to measure the
-rotation of a spinning disk. The disk has a series of slits around its perimeter that the
-photointerruptors can detect.
-
-Due to 3d-printing limitations, I could not get very high precision. The disk has 15 slits, giving
-it 60 pulses per revolution. The encoder can therefore measure rotations to an accuracy of 1/60th of
-a revolution, or 6 degrees. I was unable to get the encoder to count accurately with higher
-precision because the slits were too small to be reliably detected.
-
-That being said, the final encoder was perfectly accurate. It accumulated zero error even when
-spinning at high speeds.
-
-This encoder was used in a school project in which dynamic band-stop filter was generated and
-applied to a live audio signal. The encoder controlled the frequency range of the filter.
-
-<p>
-<img src="res/encoder/casing.jpg" alt="Image of the encoder in its casing" width="32%">
-<img src="res/encoder/inside.jpg" alt="Image of the inside of the encoder" width="32%">
-<img src="res/encoder/closeup.jpg" alt="Image of the encoder's disk" width="32%">
-</p>
-<img src="res/encoder/sc-filter-ui.png" alt="Screenshot of the filter editor" width="100%">
-
-# Rankr
-
-A website for ranking TV episodes. This was my first project done with a modern web framework and I
-chose to learn Vue. I primarily used this project to improve my design skills, focusing on making a
-good-looking site with natural animations. I also wanted to build my own backend, so I used Node.js
-and Express to create a REST API.
-
-- View the source code at [github.com/ZachDaChampion/rankr](https://github.com/ZachDaChampion/rankr)
-- Visit the site at [rankr.zachchampion.tech](https://rankr.zachchampion.tech)
-
-<p>
-<img src="res/rankr/sc-mainpage.png" alt="Image of the Rankr homepage" width="66%">
-<img src="res/rankr/sc-search-sw.png" alt="Image of a search for 'Star Wars'" width="66%">
-<img src="res/rankr/sc-compare.png" alt="Image of a comparison of two episodes from Star Wars: Andor (2022)" width="66%">
-</p>
-
-# Hat Picker
-
-A website for picking a random "card" out of a virtual hat. I originally made this for some friends
-who wanted to pick a random movie to watch from a list that we had made. The site allows you to
-create multiple hats, each with a different set of cards. You can also configure the hat to select
-more than one card at a time to give you a small list of options.
-
-This was my second web project. This time I used Svelte, a framework that compiles to vanilla
-JavaScript. I found it much easier to use than Vue. This project is entirely client-side, so I
-didn't need to worry about a backend; everything is stored in the browser's local storage.
-
-I did extend this site for a class project, adding a backend with PHP and MySQL to enable live
-collaboration between users. However, this version is not currently hosted.
-
-- View the source code at
-  [github.com/ZachDaChampion/hat-picker](https://github.com/ZachDaChampion/hat-picker)
-- Visit the site at
-  [zachdachampion.github.io/hat-picker](https://zachdachampion.github.io/hat-picker/)
-
-<p>
-<img src="res/hatpicker/sc-mainpage.png" alt="Image of the Hat Picker main page" width="66%">
-<img src="res/hatpicker/sc-moviehat.png" alt="Image of the contents of the 'Movies' hat" width="66%">
-<img src="res/hatpicker/sc-drawn.png" alt="Image of two cards that were drawn from the 'Movies' hat" width="66%">
-</p>
