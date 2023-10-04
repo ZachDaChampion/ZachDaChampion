@@ -3,10 +3,10 @@ import sys
 from PIL import Image, ImageOps
 
 # CLI arguments
-# --source: Source folder (default: res-orig)
+# --source: Source folder (default: res-raw)
 # --dest: Destination folder (default: res)
-# --quality: Quality of compressed images (0-100) (default: 25)
-# --resize: Resize images to specified max width and height (widthxheight) (default: 720x720)
+# --quality: Quality of compressed images (0-100) (default: 80)
+# --resize: Resize images to specified max width and height (<width>x<height>) (default: 720x720)
 
 # Get CLI arguments
 args = sys.argv
