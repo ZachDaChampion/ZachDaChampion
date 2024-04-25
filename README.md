@@ -1,9 +1,7 @@
 # Hi, I'm Zach
 
-I'm a computer engineering student interested in robotics and embedded programming. I have
-experience in C, C++, Rust, Python, and JavaScript.
-
-This page is a work-in-progress.
+I'm a computer engineer interested in robotics and embedded programming. I have experience in C,
+C++, Rust, Python, and JavaScript.
 
 # Chess Robot
 
