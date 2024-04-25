@@ -5,6 +5,30 @@ experience in C, C++, Rust, Python, and JavaScript.
 
 This page is a work-in-progress.
 
+# Chess Robot
+
+In college, I led a senior design team that developed a chess-playing robot arm. I wrote firmware
+for the [Annin Robotics](https://www.anninrobotics.com/) AR3 arm and all of the code required to
+integrate it with ROS and MoveIt. I also implemented dynamic scene tracking (via ArUco markers) all
+of the logic for moving the arm, and various ROS nodes for integrating with other hardware and
+software. To account for significant backlash in the arm's joints, I wrote an evolutionary algorithm
+that visually determined the gripper's pose and estimated the error in each joint.
+
+Additionally, I designed and built a gripper with an integrated time-of-flight camera, which I used
+for visual servoing when aligning with pieces.
+
+An overhead Kinect is used to identify chess pieces using a fine-tuned YOLOv8-based classifier.
+
+This project won the "Best in Show" for electrical and computer engineering.
+
+<p>
+<img src="res/cobot/overview.jpg" alt="Image of the full chess robot scene" width="100%">
+<img src="res/cobot/upright.jpg" alt="Image of the chess robot standing upright" width="35.5%">
+<img src="res/cobot/closeup.jpg" alt="Close-up of gripper holding a chess piece" width="63%">
+<img src="res/cobot/tof-gripper.jpg" alt="Close-up of gripper holding a chess piece" width="63%">
+<img src="res/cobot/tof-view.jpg" alt="Image of the chess robot standing upright" width="35.5%">
+</p>
+
 # Roomba Experimentation Platform
 
 When working with robotics, I've always been much more enthusiastic about projects that involve
