@@ -25,6 +25,8 @@ This project won the "Best in Show" for electrical and computer engineering.
 <img src="res/cobot/closeup.jpg" alt="Close-up of gripper holding a chess piece" width="63%">
 <img src="res/cobot/tof-gripper.jpg" alt="Close-up of gripper holding a chess piece" width="63%">
 <img src="res/cobot/tof-view.jpg" alt="Image of the chess robot standing upright" width="35.5%">
+<img src="res/cobot/best-in-show.jpg" alt="Image of our 'Best in Show' award" width="49.5%">
+<img src="res/cobot/clock.jpg" alt="Image of our custom clock" width="49.5%">
 </p>
 
 # Roomba Experimentation Platform
