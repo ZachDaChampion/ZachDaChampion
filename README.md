@@ -54,6 +54,30 @@ obstacle avoidance, among other things.
 - View (some of) the source code at
   [github.com/ZachDaChampion/Roomba-ROS-Jetson](https://github.com/ZachDaChampion/Roomba-ROS-Jetson)
 
+# Self-Balancing Robot
+
+At first, I built a simple two-wheeled robot that used PID control to balance. This robot used an
+Arduino UNO and motors from Vex robotics. While this robot was stable on its own, it was not very
+robust against perturbances due to limitations stemming from the motors' maximum speed and the motor
+controllers' response time and nonlinearity.
+
+- View the source code at [github.com/ZachDaChampion/BalanceBot](https://github.com/ZachDaChampion/BalanceBot)
+- See it balancing at [youtu.be/8lDA1xIZCVg](https://youtu.be/8lDA1xIZCVg)
+
+<p>
+<img src="res/balancebot/balancebot-v1.jpg" alt="Image of the original balance bot" width="60%">
+</p>
+
+After some experimenting with belts and geared wheels, I settled on a new design that, in addition
+to having a better weight distribution, uses quadrature encoders to measure and correct motor
+speeds. I also upgraded to an ESP32 running FreeRTOS coupled with a web-based control dashboard. The
+software for this version of the robot is still under development.
+
+<p>
+<img src="res/balancebot/balancebot-v4.jpg" alt="Image of the updated balance bot" width="63%">
+<img src="res/balancebot/balancebot-web.png" alt="Image of the updated balance bot's web UI" width="35%">
+</p>
+
 # Smart Mirror
 
 I disassembled an old laptop and used its internals to create a smart mirror. The mirror runs Linux
