@@ -65,7 +65,7 @@ controllers' response time and nonlinearity.
 - See it balancing at [youtu.be/8lDA1xIZCVg](https://youtu.be/8lDA1xIZCVg)
 
 <p>
-<img src="res/balancebot/balancebot-v1.jpg" alt="Image of the original balance bot" width="60%">
+<img src="res/balancebot/balancebot-v1.jpg" alt="Image of the original balance bot" width="100%">
 </p>
 
 After some experimenting with belts and geared wheels, I settled on a new design that, in addition
