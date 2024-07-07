@@ -7,7 +7,7 @@ C++, Rust, Python, and JavaScript.
 
 In college, I led a senior design team that developed a chess-playing robot arm. I wrote firmware
 for the [Annin Robotics](https://www.anninrobotics.com/) AR3 arm and all of the code required to
-integrate it with ROS and MoveIt. I also implemented dynamic scene tracking (via ArUco markers) all
+integrate it with ROS and MoveIt. I also implemented dynamic scene tracking (via ArUco markers), all
 of the logic for moving the arm, and various ROS nodes for integrating with other hardware and
 software. To account for significant backlash in the arm's joints, I wrote an evolutionary algorithm
 that visually determined the gripper's pose and estimated the error in each joint.
