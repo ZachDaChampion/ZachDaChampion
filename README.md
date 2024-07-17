@@ -192,7 +192,7 @@ This project is implemented in C++ with the QT framework.
 
 # Quadrature Encoder
 
-I designed and 3d-printed a simple quadrature encoder. It uses two photointerruptors to measure the
+I designed and 3d-printed a simple quadrature encoder. It uses two photo-interruptors to measure the
 rotation of a spinning disk. The disk has a series of slits around its perimeter that the
 photointerruptors can detect.
 
