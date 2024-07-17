@@ -1,7 +1,7 @@
 # Hi, I'm Zach
 
 I'm a computer engineer interested in robotics and embedded programming. I have experience in C,
-C++, Rust, Python, and JavaScript.
+C++, Rust, Python, and web technologies.
 
 # Chess Robot
 
@@ -28,6 +28,80 @@ This project won the "Best in Show" for electrical and computer engineering.
 <img src="res/cobot/best-in-show.jpg" alt="Image of our 'Best in Show' award" width="49.5%">
 <img src="res/cobot/clock.jpg" alt="Image of our custom clock" width="49.5%">
 </p>
+
+# SimpleBuffers
+
+SimpleBuffers is a schema language and compiler for data serialization.
+
+A while ago, I noticed that a large part of my time is spent writing code to encode and decode data
+for serial communication. This code is predictable, repetitive, and boring to write, so I began
+looking for solutions. I've tried out [Protocol Buffers](https://protobuf.dev/),
+[FlatBuffers](https://flatbuffers.dev), [Cap'n Proto](https://capnproto.org/), and
+[MessagePack](https://msgpack.org/), and I've looked into far more. While many of these projects are
+very good, I ran into various issues using them for embedded systems without dynamic memory
+allocation, and it proved faster and easier to implement the serialization manually.
+
+Because of this, and because I have lately been interested writing compilers, I decided to implement
+my own serialization library. The serialization scheme I designed is explained on the [project's
+README](https://github.com/ZachDaChampion/simple-buffers). In short, most data is serialized
+sequentially with zero overhead for labels or any other metadata. Decoding can be done lazily, as
+the positions of all data is known when the schema is compiled. Variable-length field such as lists
+and "OneOfs" are implemented using something akin to a computer's heap; fields are written
+sequentially at the end of the statically-sized data, and relative offsets are used as "pointers"
+from the static portion to the dynamic.
+
+I didn't know it at the time, but Cap'n Proto uses an almost identical serialization scheme. Their
+C++ API is also extremely similar to mine, and they made nearly all of the same decisions and
+tradeoffs that I did. This is both extremely validating (the guy who wrote protobuf decided to write
+a better version, and he did it the same way that I did!), but also somewhat disappointing, as there
+is little reason to use SimpleBuffers over Cap'n Proto. That's okay though; I'm still proud of what
+I made and I learned a lot by doing it, especially about compiler design and printing pretty error
+messages.
+
+```
+// Example SimpleBuffers schema:
+
+enum RobotJoint {
+    j0 = 0;
+    j1 = 1;
+    j2 = 2;
+    j3 = 3;
+    j4 = 4;
+    j5 = 5;
+}
+
+sequence Request {
+    id: u32;
+    enmArray: [RobotJoint];
+    payload: oneof {
+        init: Init;
+        moveTo: MoveTo;
+    };
+}
+
+sequence Init {
+    expected_firmware: u32;
+}
+
+sequence MoveTo {
+    joints: [MoveToEntry];
+}
+
+sequence MoveToEntry {
+    joint: RobotJoint;
+    angle: f32;
+    speed: f32;
+}
+```
+
+<p>
+<img src="res/simplebuffers/sanitycheck.png" alt="Image of the updated balance bot" width="50%">
+<img src="res/simplebuffers/invalid_type.png" alt="Image of the updated balance bot" width="50%">
+<img src="res/simplebuffers/unexpected_token.png" alt="Image of the updated balance bot" width="50%">
+</p>
+
+- View the source code at
+  [github.com/ZachDaChampion/simple-buffers](https://github.com/ZachDaChampion/simple-buffers)
 
 # Roomba Experimentation Platform
 
@@ -61,7 +135,8 @@ Arduino UNO and motors from Vex robotics. While this robot was stable on its own
 robust against perturbances due to limitations stemming from the motors' maximum speed and the motor
 controllers' response time and nonlinearity.
 
-- View the source code at [github.com/ZachDaChampion/BalanceBot](https://github.com/ZachDaChampion/BalanceBot)
+- View the source code at
+  [github.com/ZachDaChampion/BalanceBot](https://github.com/ZachDaChampion/BalanceBot)
 - See it balancing at [youtu.be/8lDA1xIZCVg](https://youtu.be/8lDA1xIZCVg)
 
 <p>
