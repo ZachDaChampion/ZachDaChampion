@@ -1,7 +1,7 @@
 # Hi, I'm Zach
 
-I'm a computer engineer interested in robotics and embedded programming. I have experience in C,
-C++, Rust, Python, and web technologies.
+I'm a computer engineer with experience in robotics and embedded programming. I'm proficient in C,
+C++, Rust, and Python.
 
 # Chess Robot
 
